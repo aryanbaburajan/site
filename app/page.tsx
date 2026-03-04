@@ -1,65 +1,234 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main className="prose">
+      <h1>Aryan Baburajan</h1>
+      <p>
+        I'm an 18-year-old graphics / systems programmer from Kerala, India,
+        currently studying Computer Science at Christ College of Engineering
+        (2025–2029). I have been programming since I was 9, with a deep passion
+        for building complex systems from scratch and understanding their
+        architecture
+      </p>
+      <div className="flex gap-2">
+        <a href="https://github.com/aryanbaburajan" target="_blank">
+          Github
+        </a>
+        <a href="./aryanbaburajan.pdf" target="_blank">
+          Resume
+        </a>
+        <a href="https://x.com/aryanbaburajan" target="_blank">
+          X
+        </a>
+        <a href="https://linkedin.com/in/aryanbaburajan" target="_blank">
+          Linkedin
+        </a>
+        <a href="https://aryanbaburajan.itch.io/" target="_blank">
+          Itch.io
+        </a>
+      </div>
+
+      <h3>What I'm working on</h3>
+      <ul>
+        <li>
+          Performance engineering intern at{" "}
+          <a href="https://frappe.io" target="_blank">
+            Frappe
+          </a>{" "}
+          (2026–present)
+        </li>
+        <li>Finding ways to solve people’s problems through software.</li>
+      </ul>
+
+      <h3>Highlights</h3>
+      <ul>
+        <li>
+          <span className="float-right">
+            [<a href="https://www.youtube.com/watch?v=TGBrZrPsNwQ">youtube</a>]
+            [<a href="https://github.com/aryanbaburajan/ducktape">github</a>]
+          </span>
+          <b>Ducktape Game Engine</b>: 3D game engine written in C++ using
+          OpenGL, EnTT, and Dear ImGui. Features rendering system, scene
+          serialization, editor tooling, and native C++ DLL scripting. Built a
+          community and hosted multiple hackathons around it.
+        </li>
+        <li>
+          <span className="float-right">
+            [
+            <a href="https://github.com/SerenityOS/serenity/pulls?q=is%3Apr+author%3Aaryanbaburajan">
+              github
+            </a>
+            ]
+          </span>
+          <b>Contributed to SerenityOS</b>: Improving support for Unicode
+          character encoding from ASCII and porting various native applications
+          to their new GUI markup language.
+        </li>
+        <li>
+          <span className="float-right">
+            [<a href="https://www.youtube.com/watch?v=m9-Aq3A2LyY">youtube</a>]
+          </span>
+          <b>Delivered a talk at KochiFOSS</b>: to a 100+ member college
+          audience as the youngest student there from highschool sharing my
+          experience in building a game engine from scratch.
+        </li>
+        <li>
+          <b>TinkerPlay</b>: Held a workshop on the basics of Game Development
+          to a room of first and second years using p5.js. Super proud about
+          having taught them the joy of reading documentation, coding, and
+          experimenting in their projects.
+        </li>
+      </ul>
+
+      <h3>Side Projects</h3>
+      <ul>
+        <li>
+          <span className="float-right">
+            [<a href="https://github.com/aryanbaburajan/mirage">github</a>]
+          </span>
+          <b>Mirage</b> — A personalized version of ProductHunt.com that caters
+          to the user’s interests with a user authenticated product dashboard
+          and an email newsletter system to periodically send recommendations
+          through cron jobs
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://github.com/aryanbaburajan/directshare">github</a>]
+          </span>
+          <b>DirectShare</b> — File sharing service
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://github.com/aryanbaburajan/godspeed">github</a>]
+          </span>
+          <b>Godspeed</b> — Room-based file transfer using WebSockets
+          (incomplete)
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://github.com/aryanbaburajan/burrito">github</a>]
+          </span>
+          <b>Burrito</b> — Notion and Excalidraw combined into a Note-taking
+          canvas (incomplete)
+        </li>
+
+        <li>
+          <b>Video Games</b>
+          <ul>
+            <li>
+              <span className="float-right">
+                [
+                <a href="https://aryanbaburajan.itch.io/duck-duck-golf">
+                  itch.io
+                </a>
+                ]
+              </span>
+              <b>Duck Duck Golf</b> — Golf obstacle course
+            </li>
+            <li>
+              <span className="float-right">
+                [
+                <a href="https://aryanbaburajan.itch.io/chaos-just-kinda-had-its-charm-ig">
+                  itch.io
+                </a>
+                ]
+              </span>
+              <b>Chaos Car Destruction</b> — Physics-based destruction game
+            </li>
+            <li>
+              <span className="float-right">
+                [<a href="https://aryanbaburajan.itch.io/vroom">itch.io</a>]
+              </span>
+              <b>VROOM</b> — Procedurally generated track arcade racer
+            </li>
+            <li>
+              <span className="float-right">
+                [<a href="https://aryanbaburajan.itch.io/woosh">itch.io</a>]
+              </span>
+              <b>Woosh</b> — Train railway sandbox
+            </li>
+            <li>
+              <span className="float-right">
+                [<a href="https://aryanbaburajan.itch.io/hectagon">itch.io</a>]
+              </span>
+              <b>Hectagon</b> — Procedural Island Generator
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://keam-mark-calculator.vercel.app">website</a>] [
+            <a href="https://github.com/aryanbaburajan/keam-mark-calculator">
+              github
+            </a>
+            ]
+          </span>
+          <b>KEAM Mark Calculator</b> — Mark calculation for KEAM
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://github.com/aryanbaburajan/hotfix">github</a>]
+          </span>
+          <b>Hotfix Chrome Extension</b> — Fixes quirks on the internet
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://github.com/aryanbaburajan/robot">github</a>]
+          </span>
+          <b>Robot</b> — Web crawler
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://github.com/aryanbaburajan/plaintext">github</a>]
+          </span>
+          <b>Plaintext</b> — Minimalist text-only browser
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://github.com/aryanbaburajan/regina">github</a>]
+          </span>
+          <b>Regina</b> — Brainfuck Interpreter using regex operations
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://aryanbaburajan.github.io/dotpfp">website</a>] [
+            <a href="https://github.com/aryanbaburajan/dotpfp">github</a>]
+          </span>
+          <b>DotPFP</b> — Half-tone image generator
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://emotify.js.org">website</a>] [
+            <a href="https://github.com/aryanbaburajan/emotify">github</a>]
+          </span>
+          <b>Emotify</b> — JavaScript library for custom website emotes
+        </li>
+
+        <li>
+          <span className="float-right">
+            [<a href="https://lifetree.netlify.app">website</a>] [
+            <a href="https://github.com/aryanbaburajan/lifetree">github</a>]
+          </span>
+          <b>LifeTree</b> — Life events as Git branches
+        </li>
+      </ul>
+
+      <h3>Contact</h3>
+      <ul>
+        <li>
+          Send me a DM on <a href="https://x.com/aryanbaburajan">X</a> or reach
+          out via email at aryanbaburajan2007 at gmail dot com.
+        </li>
+      </ul>
+    </main>
   );
 }
