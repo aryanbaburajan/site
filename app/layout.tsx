@@ -15,10 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en m-0 p-0">
-      <body className={`min-h-screen flex justify-center ${satoshi.className}`}>
+    <html lang="en">
+      <body className={`m-0 p-0 min-h-screen flex justify-center ${satoshi.className}`}>
         <div className="pointer-events-none fixed inset-0 dot-field" />
-        <div className="min-w-xl max-w-xl my-20 ">{children}</div>
+        <div className="w-full max-w-xl px-6 my-20">{children}</div>
         <Navbar />
       </body>
     </html>

@@ -9,7 +9,7 @@ export default function Home() {
         for building complex systems from scratch and understanding their
         architecture
       </p>
-      <div className="flex gap-2">
+      <div className="flex flex-wrap gap-x-4 gap-y-2">
         <a href="https://github.com/aryanbaburajan" target="_blank">
           Github
         </a>
@@ -42,7 +42,7 @@ export default function Home() {
       <h3>Highlights</h3>
       <ul>
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://www.youtube.com/watch?v=TGBrZrPsNwQ">youtube</a>]
             [<a href="https://github.com/aryanbaburajan/ducktape">github</a>]
           </span>
@@ -52,7 +52,7 @@ export default function Home() {
           community and hosted multiple hackathons around it.
         </li>
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [
             <a href="https://github.com/SerenityOS/serenity/pulls?q=is%3Apr+author%3Aaryanbaburajan">
               github
@@ -64,7 +64,7 @@ export default function Home() {
           to their new GUI markup language.
         </li>
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://www.youtube.com/watch?v=m9-Aq3A2LyY">youtube</a>]
           </span>
           <b>Delivered a talk at KochiFOSS</b>: to a 100+ member college
@@ -82,7 +82,7 @@ export default function Home() {
       <h3>Side Projects</h3>
       <ul>
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://github.com/aryanbaburajan/mirage">github</a>]
           </span>
           <b>Mirage</b> — A personalized version of ProductHunt.com that caters
@@ -92,14 +92,14 @@ export default function Home() {
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://github.com/aryanbaburajan/directshare">github</a>]
           </span>
           <b>DirectShare</b> — File sharing service
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://github.com/aryanbaburajan/godspeed">github</a>]
           </span>
           <b>Godspeed</b> — Room-based file transfer using WebSockets
@@ -107,7 +107,7 @@ export default function Home() {
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://github.com/aryanbaburajan/burrito">github</a>]
           </span>
           <b>Burrito</b> — Notion and Excalidraw combined into a Note-taking
@@ -118,7 +118,7 @@ export default function Home() {
           <b>Video Games</b>
           <ul>
             <li>
-              <span className="float-right">
+              <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
                 [
                 <a href="https://aryanbaburajan.itch.io/duck-duck-golf">
                   itch.io
@@ -128,7 +128,7 @@ export default function Home() {
               <b>Duck Duck Golf</b> — Golf obstacle course
             </li>
             <li>
-              <span className="float-right">
+              <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
                 [
                 <a href="https://aryanbaburajan.itch.io/chaos-just-kinda-had-its-charm-ig">
                   itch.io
@@ -138,19 +138,19 @@ export default function Home() {
               <b>Chaos Car Destruction</b> — Physics-based destruction game
             </li>
             <li>
-              <span className="float-right">
+              <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
                 [<a href="https://aryanbaburajan.itch.io/vroom">itch.io</a>]
               </span>
               <b>VROOM</b> — Procedurally generated track arcade racer
             </li>
             <li>
-              <span className="float-right">
+              <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
                 [<a href="https://aryanbaburajan.itch.io/woosh">itch.io</a>]
               </span>
               <b>Woosh</b> — Train railway sandbox
             </li>
             <li>
-              <span className="float-right">
+              <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
                 [<a href="https://aryanbaburajan.itch.io/hectagon">itch.io</a>]
               </span>
               <b>Hectagon</b> — Procedural Island Generator
@@ -159,7 +159,7 @@ export default function Home() {
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://keam-mark-calculator.vercel.app">website</a>] [
             <a href="https://github.com/aryanbaburajan/keam-mark-calculator">
               github
@@ -170,35 +170,35 @@ export default function Home() {
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://github.com/aryanbaburajan/hotfix">github</a>]
           </span>
           <b>Hotfix Chrome Extension</b> — Fixes quirks on the internet
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://github.com/aryanbaburajan/robot">github</a>]
           </span>
           <b>Robot</b> — Web crawler
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://github.com/aryanbaburajan/plaintext">github</a>]
           </span>
           <b>Plaintext</b> — Minimalist text-only browser
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://github.com/aryanbaburajan/regina">github</a>]
           </span>
           <b>Regina</b> — Brainfuck Interpreter using regex operations
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://aryanbaburajan.github.io/dotpfp">website</a>] [
             <a href="https://github.com/aryanbaburajan/dotpfp">github</a>]
           </span>
@@ -206,7 +206,7 @@ export default function Home() {
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://emotify.js.org">website</a>] [
             <a href="https://github.com/aryanbaburajan/emotify">github</a>]
           </span>
@@ -214,7 +214,7 @@ export default function Home() {
         </li>
 
         <li>
-          <span className="float-right">
+          <span className="block sm:float-right text-sm sm:text-base mt-1 sm:mt-0 mb-1 sm:mb-0 opacity-80 sm:opacity-100">
             [<a href="https://lifetree.netlify.app">website</a>] [
             <a href="https://github.com/aryanbaburajan/lifetree">github</a>]
           </span>
