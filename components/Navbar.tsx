@@ -9,7 +9,6 @@ export default function Navbar() {
   const routes = [
     { label: "Home", path: "/" },
     { label: "Articles", path: "/articles" },
-    { label: "Gallery", path: "/gallery" },
   ];
 
   return (
