@@ -4,9 +4,9 @@ export default function Articles() {
       <h1>Articles</h1>
       <ul>
         <li>
-          <a href="/articles/building-things-slowly">
-            Building Things Slowly
-          </a>
+          {/* <a href="/articles/building-things-slowly"> */}
+          {/* Building Things Slowly */}
+          {/* </a> */}
         </li>
       </ul>
     </main>
