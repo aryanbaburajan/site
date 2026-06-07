@@ -1,27 +1,10 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-body {
-  @apply bg-white text-black antialiased;
+html {
+  color-scheme: light;
 }
 
-.dot-field {
-  background-image: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 0.5) 1px,
-    transparent 1px
-  );
-  background-size: 28px 28px;
-  mask-image: radial-gradient(
-    circle at center,
-    transparent 0%,
-    transparent 50%,
-    black 70%
-  );
-  -webkit-mask-image: radial-gradient(
-    circle at center,
-    transparent 0%,
-    transparent 50%,
-    black 70%
-  );
+body {
+  @apply bg-white text-black antialiased;
 }
