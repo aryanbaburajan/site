@@ -3,7 +3,7 @@ export default function Home() {
     <main className="prose">
       <h1>Aryan Baburajan</h1>
       <p>
-        I'm an 18-year-old graphics / systems programmer from Kerala, India,
+        I'm a 19-year-old graphics / systems programmer from Kerala, India,
         currently studying Computer Science at Christ College of Engineering
         (2025–2029). I have been programming since I was 9, with a deep passion
         for building complex systems from scratch and understanding their
@@ -30,17 +30,28 @@ export default function Home() {
       <h3>What I'm working on</h3>
       <ul>
         <li>
-          Performance engineering intern at{" "}
-          <a href="https://frappe.io" target="_blank">
-            Frappe
-          </a>{" "}
-          (2026–present)
+          <a href="https://github.com/aryanbaburajan/nanogpt">NanoGPT</a>: A
+          GPT implementation built from Andrej Karpathy’s Makemore series,
+          extended with a SentencePiece tokenizer and trained on my own Discord
+          message dataset.
         </li>
         <li>Finding ways to solve people’s problems through software.</li>
       </ul>
 
       <h3>Highlights</h3>
       <ul>
+        <li>
+          <div className="flex flex-col sm:block">
+            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
+              [<a href="https://frappe.io">frappe</a>]
+            </span>
+            <span className="order-1 block">
+              <b>Intern @ Frappe</b>: Built a proof-of-concept Gunicorn worker
+              using Python 3.14 subinterpreters for enabling true parallel
+              execution beyond the GIL.
+            </span>
+          </div>
+        </li>
         <li>
           <div className="flex flex-col sm:block">
             <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
@@ -73,6 +84,40 @@ export default function Home() {
           </div>
         </li>
         <li>
+          <b>Game Development Workshop Mentor</b>: Mentored 100+ students through
+          introductory Three.js and Unity game development workshops.
+        </li>
+      </ul>
+
+      <h3>Side Quests</h3>
+      <ul>
+        <li>
+          <div className="flex flex-col sm:block">
+            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
+              [<a href="https://x-embed.vercel.app">website</a>] [
+              <a href="https://github.com/aryanbaburajan/x-embed">github</a>]
+            </span>
+            <span className="order-1 block">
+              <b>X Embed</b> — A lightweight way to embed X and Twitter posts by
+              replacing the domain in their URLs.
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <div className="flex flex-col sm:block">
+            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
+              [<a href="https://quaviz.vercel.app">website</a>] [
+              <a href="https://github.com/aryanbaburajan/quaviz">github</a>]
+            </span>
+            <span className="order-1 block">
+              <b>Quaviz</b> — Interactive 3D visualizer for comparing the scale
+              of objects, animals, landmarks, and vehicles.
+            </span>
+          </div>
+        </li>
+
+        <li>
           <div className="flex flex-col sm:block">
             <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
               [<a href="https://www.youtube.com/watch?v=m9-Aq3A2LyY">youtube</a>]
@@ -84,26 +129,14 @@ export default function Home() {
             </span>
           </div>
         </li>
-        <li>
-          <b>TinkerPlay</b>: Held a workshop on the basics of Game Development
-          to a room of first and second years using p5.js. Super proud about
-          having taught them the joy of reading documentation, coding, and
-          experimenting in their projects.
-        </li>
-      </ul>
 
-      <h3>Side Projects</h3>
-      <ul>
         <li>
           <div className="flex flex-col sm:block">
             <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
-              [<a href="https://github.com/aryanbaburajan/mirage">github</a>]
+              [<a href="https://github.com/aryanbaburajan/hotfix">github</a>]
             </span>
             <span className="order-1 block">
-              <b>Mirage</b> — A personalized version of ProductHunt.com that
-              caters to the user’s interests with a user authenticated product
-              dashboard and an email newsletter system to periodically send
-              recommendations through cron jobs
+              <b>Hotfix Chrome Extension</b> — Fixes quirks on the internet
             </span>
           </div>
         </li>
@@ -111,34 +144,12 @@ export default function Home() {
         <li>
           <div className="flex flex-col sm:block">
             <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
-              [<a href="https://github.com/aryanbaburajan/directshare">github</a>]
+              [<a href="https://aryanbaburajan.github.io/raylib-docs">website</a>] [
+              <a href="https://github.com/aryanbaburajan/raylib-docs">github</a>]
             </span>
             <span className="order-1 block">
-              <b>DirectShare</b> — File sharing service
-            </span>
-          </div>
-        </li>
-
-        <li>
-          <div className="flex flex-col sm:block">
-            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
-              [<a href="https://github.com/aryanbaburajan/godspeed">github</a>]
-            </span>
-            <span className="order-1 block">
-              <b>Godspeed</b> — Room-based file transfer using WebSockets
-              (incomplete)
-            </span>
-          </div>
-        </li>
-
-        <li>
-          <div className="flex flex-col sm:block">
-            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
-              [<a href="https://github.com/aryanbaburajan/burrito">github</a>]
-            </span>
-            <span className="order-1 block">
-              <b>Burrito</b> — Notion and Excalidraw combined into a Note-taking
-              canvas (incomplete)
+              <b>Raylib Docs</b> — A hosted, full API documentation reference for
+              the Raylib game-programming library.
             </span>
           </div>
         </li>
@@ -146,6 +157,16 @@ export default function Home() {
         <li>
           <b>Video Games</b>
           <ul>
+            <li>
+              <div className="flex flex-col sm:block">
+                <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
+                  [<a href="https://aryanbaburajan.itch.io/hearsay">itch.io</a>]
+                </span>
+                <span className="order-1 block">
+                  <b>Hearsay</b> — Interactive fiction: did you kill Tracy Stakes?
+                </span>
+              </div>
+            </li>
             <li>
               <div className="flex flex-col sm:block">
                 <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
@@ -210,14 +231,13 @@ export default function Home() {
         <li>
           <div className="flex flex-col sm:block">
             <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
-              [<a href="https://keam-mark-calculator.vercel.app">website</a>] [
-              <a href="https://github.com/aryanbaburajan/keam-mark-calculator">
-                github
-              </a>
-              ]
+              [<a href="https://github.com/aryanbaburajan/mirage">github</a>]
             </span>
             <span className="order-1 block">
-              <b>KEAM Mark Calculator</b> — Mark calculation for KEAM
+              <b>Mirage</b> — A personalized version of ProductHunt.com that
+              caters to the user’s interests with a user authenticated product
+              dashboard and an email newsletter system to periodically send
+              recommendations through cron jobs
             </span>
           </div>
         </li>
@@ -225,32 +245,10 @@ export default function Home() {
         <li>
           <div className="flex flex-col sm:block">
             <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
-              [<a href="https://github.com/aryanbaburajan/hotfix">github</a>]
+              [<a href="https://github.com/aryanbaburajan/directshare">github</a>]
             </span>
             <span className="order-1 block">
-              <b>Hotfix Chrome Extension</b> — Fixes quirks on the internet
-            </span>
-          </div>
-        </li>
-
-        <li>
-          <div className="flex flex-col sm:block">
-            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
-              [<a href="https://github.com/aryanbaburajan/robot">github</a>]
-            </span>
-            <span className="order-1 block">
-              <b>Robot</b> — Web crawler
-            </span>
-          </div>
-        </li>
-
-        <li>
-          <div className="flex flex-col sm:block">
-            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
-              [<a href="https://github.com/aryanbaburajan/plaintext">github</a>]
-            </span>
-            <span className="order-1 block">
-              <b>Plaintext</b> — Minimalist text-only browser
+              <b>DirectShare</b> — File sharing service
             </span>
           </div>
         </li>
@@ -281,6 +279,47 @@ export default function Home() {
         <li>
           <div className="flex flex-col sm:block">
             <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
+              [
+              <a href="https://github.com/aryanbaburajan/strangerthings-vr">
+                github
+              </a>
+              ]
+            </span>
+            <span className="order-1 block">
+              <b>Stranger Things VR</b> — A VR project inspired by Stranger Things.
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <div className="flex flex-col sm:block">
+            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
+              [<a href="https://github.com/aryanbaburajan/robot">github</a>]
+            </span>
+            <span className="order-1 block">
+              <b>Robot</b> — Web crawler
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <div className="flex flex-col sm:block">
+            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
+              [<a href="https://keam-mark-calculator.vercel.app">website</a>] [
+              <a href="https://github.com/aryanbaburajan/keam-mark-calculator">
+                github
+              </a>
+              ]
+            </span>
+            <span className="order-1 block">
+              <b>KEAM Mark Calculator</b> — Mark calculation for KEAM
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <div className="flex flex-col sm:block">
+            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
               [<a href="https://emotify.js.org">website</a>] [
               <a href="https://github.com/aryanbaburajan/emotify">github</a>]
             </span>
@@ -301,6 +340,7 @@ export default function Home() {
             </span>
           </div>
         </li>
+
       </ul>
 
       <h3>Contact</h3>
