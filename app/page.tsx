@@ -30,10 +30,12 @@ export default function Home() {
       <h3>What I'm working on</h3>
       <ul>
         <li>
-          <a href="https://github.com/aryanbaburajan/nanogpt">NanoGPT</a>: A
-          GPT implementation built from Andrej Karpathy’s Makemore series,
-          extended with a SentencePiece tokenizer and trained on my own Discord
-          message dataset.
+          <a href="https://github.com/aryanbaburajan/transformer">
+            Transformer
+          </a>
+          : A from-scratch implementation of the original “Attention Is All You
+          Need” Transformer, with multi-head attention, sinusoidal positional
+          embeddings, encoder-decoder layers, training, and text generation.
         </li>
         <li>Finding ways to solve people’s problems through software.</li>
       </ul>
