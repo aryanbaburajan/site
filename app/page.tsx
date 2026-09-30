@@ -30,8 +30,8 @@ export default function Home() {
       <h3>What I'm working on</h3>
       <ul>
         <li>
-          <a href="https://github.com/aryanbaburajan/transformer">
-            Transformer
+          <a href="https://github.com/aryanbaburajan/llm-playground">
+            LLM Playground
           </a>
           : A from-scratch implementation of the original “Attention Is All You
           Need” Transformer, with multi-head attention, sinusoidal positional
