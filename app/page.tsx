@@ -30,12 +30,21 @@ export default function Home() {
       <h3>What I'm working on</h3>
       <ul>
         <li>
-          <a href="https://github.com/aryanbaburajan/llm-playground">
-            LLM Playground
-          </a>
-          : A from-scratch implementation of the original “Attention Is All You
-          Need” Transformer, with multi-head attention, sinusoidal positional
-          embeddings, encoder-decoder layers, training, and text generation.
+          <div className="flex flex-col sm:block">
+            <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
+              [
+              <a href="https://github.com/aryanbaburajan/llm-playground">
+                github
+              </a>
+              ]
+            </span>
+            <span className="order-1 block">
+              <b>LLM Playground</b>: A from-scratch implementation of the
+              original “Attention Is All You Need” Transformer, with multi-head
+              attention, sinusoidal positional embeddings, encoder-decoder
+              layers, training, and text generation.
+            </span>
+          </div>
         </li>
         <li>Finding ways to solve people’s problems through software.</li>
       </ul>
@@ -45,7 +54,7 @@ export default function Home() {
         <li>
           <div className="flex flex-col sm:block">
             <span className="order-2 block text-sm mt-1 opacity-80 sm:order-none sm:float-right sm:text-base sm:mt-0 sm:mb-0 sm:opacity-100">
-              [<a href="https://frappe.io">frappe</a>]
+              [<a href="https://frappe.io">website</a>]
             </span>
             <span className="order-1 block">
               <b>Intern @ Frappe</b>: Built a proof-of-concept Gunicorn worker
