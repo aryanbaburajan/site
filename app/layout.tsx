@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Aryan Baburajan",
   description:
-    "I'm an 18-year-old graphics / systems programmer from Kerala, India.",
+    "I'm a 19-year-old graphics / systems programmer. I have been programming since I was 9, with a deep passion for building complex systems from scratch and understanding their architecture",
 };
 
 export default function RootLayout({
