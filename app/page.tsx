@@ -109,7 +109,7 @@ export default function Home() {
               <a href="https://github.com/aryanbaburajan/x-embed">github</a>]
             </span>
             <span className="order-1 block">
-              <b>X Embed</b> — A lightweight way to embed X and Twitter posts by
+              <b>X Embed</b>: A lightweight way to embed X and Twitter posts by
               replacing the domain in their URLs.
             </span>
           </div>
@@ -122,7 +122,7 @@ export default function Home() {
               <a href="https://github.com/aryanbaburajan/quaviz">github</a>]
             </span>
             <span className="order-1 block">
-              <b>Quaviz</b> — Interactive 3D visualizer for comparing the scale
+              <b>Quaviz</b>: Interactive 3D visualizer for comparing the scale
               of objects, animals, landmarks, and vehicles.
             </span>
           </div>
@@ -147,7 +147,7 @@ export default function Home() {
               [<a href="https://github.com/aryanbaburajan/hotfix">github</a>]
             </span>
             <span className="order-1 block">
-              <b>Hotfix Chrome Extension</b> — Fixes quirks on the internet
+              <b>Hotfix Chrome Extension</b>: Fixes quirks on the internet
             </span>
           </div>
         </li>
@@ -159,7 +159,7 @@ export default function Home() {
               <a href="https://github.com/aryanbaburajan/raylib-docs">github</a>]
             </span>
             <span className="order-1 block">
-              <b>Raylib Docs</b> — A hosted, full API documentation reference for
+              <b>Raylib Docs</b>: A hosted, full API documentation reference for
               the Raylib game-programming library.
             </span>
           </div>
@@ -174,7 +174,7 @@ export default function Home() {
                   [<a href="https://aryanbaburajan.itch.io/hearsay">itch.io</a>]
                 </span>
                 <span className="order-1 block">
-                  <b>Hearsay</b> — Interactive fiction: did you kill Tracy Stakes?
+                  <b>Hearsay</b>: Interactive fiction: did you kill Tracy Stakes?
                 </span>
               </div>
             </li>
@@ -188,7 +188,7 @@ export default function Home() {
                   ]
                 </span>
                 <span className="order-1 block">
-                  <b>Duck Duck Golf</b> — Golf obstacle course
+                  <b>Duck Duck Golf</b>: Golf obstacle course
                 </span>
               </div>
             </li>
@@ -202,7 +202,7 @@ export default function Home() {
                   ]
                 </span>
                 <span className="order-1 block">
-                  <b>Chaos Car Destruction</b> — Physics-based destruction game
+                  <b>Chaos Car Destruction</b>: Physics-based destruction game
                 </span>
               </div>
             </li>
@@ -212,7 +212,7 @@ export default function Home() {
                   [<a href="https://aryanbaburajan.itch.io/vroom">itch.io</a>]
                 </span>
                 <span className="order-1 block">
-                  <b>VROOM</b> — Procedurally generated track arcade racer
+                  <b>VROOM</b>: Procedurally generated track arcade racer
                 </span>
               </div>
             </li>
@@ -222,7 +222,7 @@ export default function Home() {
                   [<a href="https://aryanbaburajan.itch.io/woosh">itch.io</a>]
                 </span>
                 <span className="order-1 block">
-                  <b>Woosh</b> — Train railway sandbox
+                  <b>Woosh</b>: Train railway sandbox
                 </span>
               </div>
             </li>
@@ -232,7 +232,7 @@ export default function Home() {
                   [<a href="https://aryanbaburajan.itch.io/hectagon">itch.io</a>]
                 </span>
                 <span className="order-1 block">
-                  <b>Hectagon</b> — Procedural Island Generator
+                  <b>Hectagon</b>: Procedural Island Generator
                 </span>
               </div>
             </li>
@@ -245,7 +245,7 @@ export default function Home() {
               [<a href="https://github.com/aryanbaburajan/mirage">github</a>]
             </span>
             <span className="order-1 block">
-              <b>Mirage</b> — A personalized version of ProductHunt.com that
+              <b>Mirage</b>: A personalized version of ProductHunt.com that
               caters to the user’s interests with a user authenticated product
               dashboard and an email newsletter system to periodically send
               recommendations through cron jobs
@@ -259,7 +259,7 @@ export default function Home() {
               [<a href="https://github.com/aryanbaburajan/directshare">github</a>]
             </span>
             <span className="order-1 block">
-              <b>DirectShare</b> — File sharing service
+              <b>DirectShare</b>: File sharing service
             </span>
           </div>
         </li>
@@ -270,7 +270,7 @@ export default function Home() {
               [<a href="https://github.com/aryanbaburajan/regina">github</a>]
             </span>
             <span className="order-1 block">
-              <b>Regina</b> — Brainfuck Interpreter using regex operations
+              <b>Regina</b>: Brainfuck Interpreter using regex operations
             </span>
           </div>
         </li>
@@ -282,7 +282,7 @@ export default function Home() {
               <a href="https://github.com/aryanbaburajan/dotpfp">github</a>]
             </span>
             <span className="order-1 block">
-              <b>DotPFP</b> — Half-tone image generator
+              <b>DotPFP</b>: Half-tone image generator
             </span>
           </div>
         </li>
@@ -297,7 +297,7 @@ export default function Home() {
               ]
             </span>
             <span className="order-1 block">
-              <b>Stranger Things VR</b> — A VR project inspired by Stranger Things.
+              <b>Stranger Things VR</b>: A VR project inspired by Stranger Things.
             </span>
           </div>
         </li>
@@ -308,7 +308,7 @@ export default function Home() {
               [<a href="https://github.com/aryanbaburajan/robot">github</a>]
             </span>
             <span className="order-1 block">
-              <b>Robot</b> — Web crawler
+              <b>Robot</b>: Web crawler
             </span>
           </div>
         </li>
@@ -323,7 +323,7 @@ export default function Home() {
               ]
             </span>
             <span className="order-1 block">
-              <b>KEAM Mark Calculator</b> — Mark calculation for KEAM
+              <b>KEAM Mark Calculator</b>: Mark calculation for KEAM
             </span>
           </div>
         </li>
@@ -335,7 +335,7 @@ export default function Home() {
               <a href="https://github.com/aryanbaburajan/emotify">github</a>]
             </span>
             <span className="order-1 block">
-              <b>Emotify</b> — JavaScript library for custom website emotes
+              <b>Emotify</b>: JavaScript library for custom website emotes
             </span>
           </div>
         </li>
@@ -347,7 +347,7 @@ export default function Home() {
               <a href="https://github.com/aryanbaburajan/lifetree">github</a>]
             </span>
             <span className="order-1 block">
-              <b>LifeTree</b> — Life events as Git branches
+              <b>LifeTree</b>: Life events as Git branches
             </span>
           </div>
         </li>
